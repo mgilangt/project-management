@@ -1,11 +1,11 @@
-# DewaKoding Project Management
+# Papermore Project Management
 
 🎉 **Now using Filament 4!** 🎉
 
-![image](https://raw.githubusercontent.com/SeptiawanAjiP/dewakoding-project-management/refs/heads/main/images/image-1.png)
-![image](https://raw.githubusercontent.com/SeptiawanAjiP/dewakoding-project-management/refs/heads/main/images/image-1a.png)
-![image](https://raw.githubusercontent.com/SeptiawanAjiP/dewakoding-project-management/refs/heads/main/images/image-4.jpeg)
-![image](https://raw.githubusercontent.com/SeptiawanAjiP/dewakoding-project-management/refs/heads/main/images/image-5.jpeg)
+![image](https://raw.githubusercontent.com/papermore/project-management/refs/heads/main/images/image-1.png)
+![image](https://raw.githubusercontent.com/papermore/project-management/refs/heads/main/images/image-1a.png)
+![image](https://raw.githubusercontent.com/papermore/project-management/refs/heads/main/images/image-4.jpeg)
+![image](https://raw.githubusercontent.com/papermore/project-management/refs/heads/main/images/image-5.jpeg)
 
 A Laravel Filament 4 application for managing projects with ticket management and status tracking.
 
@@ -34,19 +34,19 @@ A Laravel Filament 4 application for managing projects with ticket management an
 - Composer
 - Node.js & npm
 
-![image](https://raw.githubusercontent.com/SeptiawanAjiP/dewakoding-project-management/refs/heads/main/images/image-2.jpeg)
-![image](https://raw.githubusercontent.com/SeptiawanAjiP/dewakoding-project-management/refs/heads/main/images/image-6.jpeg)
-![image](https://raw.githubusercontent.com/SeptiawanAjiP/dewakoding-project-management/refs/heads/main/images/image-7.jpeg)
-![image](https://raw.githubusercontent.com/SeptiawanAjiP/dewakoding-project-management/refs/heads/main/images/image-8.jpeg)
-![image](https://raw.githubusercontent.com/SeptiawanAjiP/dewakoding-project-management/refs/heads/main/images/image-9.jpeg)
+![image](https://raw.githubusercontent.com/papermore/project-management/refs/heads/main/images/image-2.jpeg)
+![image](https://raw.githubusercontent.com/papermore/project-management/refs/heads/main/images/image-6.jpeg)
+![image](https://raw.githubusercontent.com/papermore/project-management/refs/heads/main/images/image-7.jpeg)
+![image](https://raw.githubusercontent.com/papermore/project-management/refs/heads/main/images/image-8.jpeg)
+![image](https://raw.githubusercontent.com/papermore/project-management/refs/heads/main/images/image-9.jpeg)
 
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/SeptiawanAjiP/dewakoding-project-management
-   cd dewakoding-project-management
+   git clone https://github.com/papermore/project-management
+   cd project-management
    ```
 
 2. Install dependencies:
@@ -66,7 +66,7 @@ A Laravel Filament 4 application for managing projects with ticket management an
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
-   DB_DATABASE=dewakoding_project_management
+   DB_DATABASE=project_management
    DB_USERNAME=root
    DB_PASSWORD=
    ```
@@ -199,7 +199,7 @@ This application supports Google OAuth login. Here's how to configure it:
    - In the sidebar, select "APIs & Services" > "Credentials"
    - Click "Create Credentials" > "OAuth 2.0 Client IDs"
    - Select "Web application" as the application type
-   - Enter application name (example: "DewaKoding Project Management")
+   - Enter application name (example: "Papermore Project Management")
    - In "Authorized redirect URIs", add:
      ```
      http://localhost:8000/auth/google/callback
@@ -251,7 +251,7 @@ MAIL_USERNAME=your-email@gmail.com
 MAIL_PASSWORD=your-app-password
 MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS=your-email@gmail.com
-MAIL_FROM_NAME="DewaKoding Project Management"
+MAIL_FROM_NAME="Papermore Project Management"
 ```
 
 ### 2. Queue Configuration
